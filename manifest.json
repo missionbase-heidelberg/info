@@ -1,6 +1,6 @@
 {
-  "short_name": "Joshua Kraft (json)",
-  "name": "Digital Business Card (json)",
+  "short_name": "Mission Base Heidelberg",
+  "name": "All glory to God",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#434749",
-  "background_color": "#434749"
+  "theme_color": "#49696f",
+  "background_color": "#49696f"
 }
