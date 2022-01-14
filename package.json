@@ -1,6 +1,6 @@
 {
   "homepage": "http://missionbase-heidelberg.github.io/info",
-  "name": "missionbase-heidelberg",
+  "name": "info",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
