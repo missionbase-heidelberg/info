@@ -1,6 +1,13 @@
 :root {
   --button-color: 49, 69, 158;
-  --button-font-color: 255, 255, 255;
+  --button-font-color: 211, 241, 239;
+
+  --dark-grey: #384949;
+  --light-grey: #49696f;
+  --light-green: #98d9c2;
+  --bright-green: #00cab0;
+  --blue-green: #009398;
+  --mb-yellow: #feae00;
 }
 
 body {
@@ -21,7 +28,7 @@ code {
   /* FIX: Background expand to full screen if its bigger than content */
   display: flex;
   justify-content: center;
-  background-color: #434749;
+  background-color: var(--light-grey);
 }
 
 .business-card {
@@ -31,7 +38,7 @@ code {
 
 .profile-picture {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(101, 104, 114, 0)),
-    url(./images/profile_picture.jpeg);
+    url(./images/mb-logo.png);
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0px 0px;
@@ -39,7 +46,7 @@ code {
 }
 
 .profile-back {
-  background: #222c38;
+  background: var(--dark-grey);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -51,7 +58,7 @@ code {
 }
 
 .profile-title > h1 {
-  color: azure;
+  color: #d3f1ef;
   text-align: center;
   font-size: 1em;
   margin-top: 15px;
@@ -59,7 +66,7 @@ code {
 }
 
 .profile-title > h3 {
-  color: #3581d8;
+  color: var(--bright-green);
   text-align: center;
   font-size: 0.335em;
   margin-top: 5px;
@@ -154,25 +161,27 @@ code {
 }
 
 .linkedin {
-  --button-color: 80, 147, 226;
+  --button-color: 0, 147, 152;
 }
 
 .contact {
-  --button-color: 96, 103, 136;
+  --button-color: 73, 105, 111;
 }
 
 /*******************/
 
 .info {
   display: flex;
-  justify-content: space-around;
-
-  margin: 4% 0%;
-  font-size: clamp(6.5px, 3vw, 18px);
+  justify-content: space-between;
 }
 
 .info-icon {
-  margin: 0em 0.5em;
+  margin-right: 0.5em;
+}
+
+.google-link:hover {
+  color: #49696f;
+  cursor: pointer;
 }
 
 .profile-description {
@@ -181,28 +190,34 @@ code {
 }
 
 .profile-description > * {
-  color: #adc8e6;
+  color: #d3f1ef;
 }
 
-.profile-links {
+.resource-links {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5%;
+  aspect-ratio: 2.2/1;
 
-  color: #ffffff;
-  background: #162536;
+  color: #744e4e;
+  background: #2b3d3d;
   border-radius: 0px 0px 15px 15px;
 }
 
-.social-links {
-  font-size: clamp(2rem, 8vw, 3rem);
-  margin: 4% 2%;
-}
+.resource-buttons {
+  --button-color: 254, 174, 0;
+  --button-font-color: 255, 255, 255;
 
-.social-links:hover {
-  color: #576291;
-}
+  position: relative; /* This is that the ::before can reference the button with absolute*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
-.social-links:active {
-  color: #57629196;
+  flex-grow: 1;
+  width: auto;
+  margin: 2% 5%;
+
+  font-size: clamp(10px, 3.6vw, 19px);
 }

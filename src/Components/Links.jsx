@@ -1,23 +1,22 @@
 function Links() {
-  const openlink = (link) => {
-    window.open(link, "_blank");
-  };
+  // const openlink = (link) => {
+  //   window.open(link, "_blank");
+  // };
 
   return (
-    <div className="profile-links">
-      <i
-        className="fab fa-github social-links"
-        onClick={() => {
-          openlink("https://github.com/OshFrosch");
-        }}
-      ></i>
-      <i
-        className="fab fa-linkedin social-links"
-        onClick={() => {
-          openlink("https://www.linkedin.com/in/nathan-joshua-kraft/");
-        }}
-      ></i>
-      <i className="fab fa-instagram social-links"></i>
+    <div className="resource-links">
+      <button className="btn animation resource-buttons">
+        <i class="button-icon fas fa-address-book"></i>
+        Kontaktperson
+      </button>
+      <button className="btn animation resource-buttons">
+        <i class="button-icon fas fa-bullseye"></i>
+        Vision-Statement
+      </button>
+      <button className="btn animation resource-buttons">
+        <i class="button-icon fas fa-project-diagram"></i>
+        Interne Struktur
+      </button>
     </div>
   );
 }
