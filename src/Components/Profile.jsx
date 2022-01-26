@@ -3,6 +3,9 @@ function Profile() {
     window.open(link, "_blank");
   };
 
+  const bibleVers =
+    "Nur führt euer Leben würdig des Evangeliums von Christus, damit ich, ob ich komme und euch sehe oder abwesend bin, von euch höre, dass ihr fest steht in einem Geist und einmütig miteinander kämpft für den Glauben des Evangeliums -Phil. 1:27";
+
   return (
     <div className="profile-back">
       <div className="profile-title">
@@ -21,37 +24,52 @@ function Profile() {
         <button
           className="btn animation contact"
           onClick={() => {
-            alert("Coming soon.");
+            alert("Video is in production - coming soon.");
           }}
         >
           <i class="button-icon fab fa-youtube"></i>Vision
         </button>
       </div>
       <div className="profile-description">
+        <h3>
+          Vision -{" "}
+          <i
+            onClick={() => {
+              alert(bibleVers);
+            }}
+            class="clickable fas fa-bible"
+          ></i>
+        </h3>
+        <p>
+          Jeder Nachfolger Jesu ist ausgerüstet und mutig seinen Glauben im
+          Alltag zu teilen. Als Gottes Gemeinde stehen wir aktiv in Einheit
+          zusammen, um seinen Missionsauftrag zu erfüllen.{" "}
+        </p>
         <h3>Wer sind wir?</h3>
         <p>
           Wir sind eine Gruppe an alltäglichen Menschen, die sich danach sehnen,
-          Jesus zu kennen und gemeinsam Gottes Reich zu bauen. Wir haben das
-          Herz Menschen das Evangelium zu erzählen und strategisch unser Umfeld
-          für Jesus zu gewinnen.
+          Jesus zu kennen und in Einheit und Liebe Gottes Reich zu bauen. Wir
+          träumen davon, dass jeder Nachfolger Jesu ausgerüstet und freigesetzt
+          ist sein Umfeld für Jesus zu gewinnen.
         </p>
         <h3>Was machen wir?</h3>
         <p>
-          Wir schaffen eine Platform, die jeder nutzen kann, um zu einem
-          missionarischen Leben trainiert zu werden. Das bedeutet vor allem,
-          dass wir regelmäßige Straßeneinsätze organisieren an denen wir unsere
-          Erfahrung, Gottes Wort und Hingabe weitergeben.
+          Wir machen es für jeden Nachfolger Jesus möglich sofort und praktisch
+          in den Fähigkeiten trainiert zu werden Menschen im Alltag zu Jesus zu
+          führen. Das erreichen wir indem wir eine Platform, für Gläubige und
+          Gemeinden schaffen, über die wir auf regelmäßigen Straßeneinsätzen
+          unsere Erfahrung und Hingabe teilen.
         </p>
         <h3>Outreaches</h3>
         <p>
           <div className="info">
             <span
               onClick={() => {
-                openlink("https://goo.gl/maps/YAgYdZBTT8GySFBF8");
+                openlink("https://goo.gl/maps/sm3duJDQ6PWvKcaB9");
               }}
             >
               <i class="info-icon fas fa-map-marker"></i>
-              <span className="google-link">Google-Maps</span>
+              <span className="google-link">Bismarkplatz</span>
             </span>
             <span>
               <i class="info-icon fas fa-clock"></i>
