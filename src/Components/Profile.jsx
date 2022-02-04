@@ -41,22 +41,22 @@ function Profile() {
           ></i>
         </h3>
         <p>
-          Jeder Nachfolger Jesu ist ausgerüstet und mutig seinen Glauben im
+          Jeder Nachfolger Jesu ist ausgerüstet und mutig, seinen Glauben im
           Alltag zu teilen. Als Gottes Gemeinde stehen wir aktiv in Einheit
-          zusammen, um seinen Missionsauftrag zu erfüllen.{" "}
+          zusammen, um seinen Missionsauftrag zu erfüllen.
         </p>
         <h3>Wer sind wir?</h3>
         <p>
           Wir sind eine Gruppe an alltäglichen Menschen, die sich danach sehnen,
           Jesus zu kennen und in Einheit und Liebe Gottes Reich zu bauen. Wir
           träumen davon, dass jeder Nachfolger Jesu ausgerüstet und freigesetzt
-          ist sein Umfeld für Jesus zu gewinnen.
+          ist, sein Umfeld für Jesus zu gewinnen.
         </p>
         <h3>Was machen wir?</h3>
         <p>
-          Wir machen es für jeden Nachfolger Jesus möglich sofort und praktisch
-          in den Fähigkeiten trainiert zu werden Menschen im Alltag zu Jesus zu
-          führen. Das erreichen wir indem wir eine Platform, für Gläubige und
+          Wir machen es für jeden Nachfolger Jesus möglich, sofort und praktisch
+          in den Fähigkeiten trainiert zu werden, Menschen im Alltag zu Jesus zu
+          führen. Das erreichen wir, indem wir eine Plattform für Gläubige und
           Gemeinden schaffen, über die wir auf regelmäßigen Straßeneinsätzen
           unsere Erfahrung und Hingabe teilen.
         </p>
