@@ -69,13 +69,26 @@ function Profile() {
               }}
             >
               <i class="info-icon fas fa-map-marker"></i>
-              <span className="google-link">Bismarkplatz</span>
+              <span className="google-link">Bismarckplatz</span>
             </span>
             <span>
               <i class="info-icon fas fa-clock"></i>
               Jeden Montag, 18:30
             </span>
           </div>
+        </p>
+        <h3>Gebet & Anbetung</h3>
+        <p>
+          Jeden 1. Montag im Monat treffen wir uns um 19:00 in den{" "}
+          <span
+            onClick={() => {
+              openlink("https://goo.gl/maps/CyVYDpW7EKxofc6T9");
+            }}
+            className="google-link"
+          >
+            Katakomben
+          </span>{" "}
+          um Jesus zu feiern.
         </p>
       </div>
     </div>

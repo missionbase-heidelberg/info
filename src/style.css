@@ -76,10 +76,10 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 100%;
   /* Here I use % margins and aspect-ratio
   to keep the buttons sizing consistent*/
-  margin: 1% 4% 0 4%;
-  aspect-ratio: 7/1;
+  aspect-ratio: 8/1;
 }
 
 .btn {
